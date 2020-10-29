@@ -24,7 +24,7 @@ public class HelloWorldTest {
     }
 
     @Test
-    public void whenHelloWorldIsCalled_thenMessageReturned() {
+    public void whenHelloWorldIsCalled_thenMessageIsReturned() {
         String actualMessage = helloWorld.getHelloWorldMessage();
         assertThat(actualMessage).isEqualTo("Hello World!");
     }
